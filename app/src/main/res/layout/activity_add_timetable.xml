@@ -1,0 +1,78 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <include layout="@layout/backappbar"/>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/annee"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:entries="@array/annee"
+            android:prompt="@string/anneePrompt" />
+
+        <Spinner
+            android:id="@+id/semestre"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:entries="@array/semestre"
+            android:prompt="@string/semestrePrompt" />
+
+        <Spinner
+            android:id="@+id/periode"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:entries="@array/periode" />
+
+        <Spinner
+            android:id="@+id/semaine"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:entries="@array/semaine"
+            android:prompt="@string/semainePrompt" />
+
+        <TextView
+            android:id="@+id/filesrc"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:enabled="false"
+            android:gravity="center"
+            android:hint="Source du fichier"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/bordermenu"
+            android:text="Parcourir"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/ajouter"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bordermenu"
+            android:text="Ajouter"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

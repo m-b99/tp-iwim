@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "339384970954",
+    "project_id": "ensias-network",
+    "storage_bucket": "ensias-network.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339384970954:android:10432891adb8b61c9c8e33",
+        "android_client_info": {
+          "package_name": "com.example.tp_iwim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339384970954-9adbelknaqene828vd77n7qqllvio7b5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tp_iwim",
+            "certificate_hash": "c84abae1cfb7f8ef0c5f25263b20a4baab1b371b"
+          }
+        },
+        {
+          "client_id": "339384970954-9p2kg44ndq2fqmh9hv883regk7rl2gqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJvu_fUAb-qf_Allp7F7oXfZl28nEHqOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339384970954-9p2kg44ndq2fqmh9hv883regk7rl2gqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

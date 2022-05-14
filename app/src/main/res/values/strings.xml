@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">IwimApplication</string>
+
+    <string name="anneePrompt">L\'année</string>
+    <string-array name="annee">
+        <item>Première année</item>
+        <item>Deuxième année</item>
+        <item>Troisième année</item>
+    </string-array>
+
+    <string name="semestrePrompt">Le semestre</string>
+    <string-array name="semestre">
+        <item>Premier semestre</item>
+        <item>Deuxième semestre</item>
+    </string-array>
+
+    <string name="semainePrompt">La semaine</string>
+    <string-array name="semaine">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="periode">
+        <item>P1</item>
+        <item>P2</item>
+    </string-array>
+
+</resources>
